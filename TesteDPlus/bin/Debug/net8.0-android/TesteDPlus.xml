@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TesteDPlus</name>
+    </assembly>
+    <members>
+        <member name="T:TesteDPlus.DTOs.ClienteDTO">
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteDPlus.DTOs.ClienteDTO.IdCliente">
+            <inheritdoc cref="F:TesteDPlus.DTOs.ClienteDTO.idCliente"/>
+        </member>
+        <member name="P:TesteDPlus.DTOs.ClienteDTO.Nome">
+            <inheritdoc cref="F:TesteDPlus.DTOs.ClienteDTO.nome"/>
+        </member>
+        <member name="P:TesteDPlus.DTOs.ClienteDTO.SobreNome">
+            <inheritdoc cref="F:TesteDPlus.DTOs.ClienteDTO.sobreNome"/>
+        </member>
+        <member name="P:TesteDPlus.DTOs.ClienteDTO.Idade">
+            <inheritdoc cref="F:TesteDPlus.DTOs.ClienteDTO.idade"/>
+        </member>
+        <member name="P:TesteDPlus.DTOs.ClienteDTO.Endereco">
+            <inheritdoc cref="F:TesteDPlus.DTOs.ClienteDTO.endereco"/>
+        </member>
+        <member name="T:TesteDPlus.ViewModels.ClienteViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.ClienteViewModel.ClienteDto">
+            <inheritdoc cref="F:TesteDPlus.ViewModels.ClienteViewModel.clienteDto"/>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.ClienteViewModel.TituloPagina">
+            <inheritdoc cref="F:TesteDPlus.ViewModels.ClienteViewModel.tituloPagina"/>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.ClienteViewModel.LoadingIsVisible">
+            <inheritdoc cref="F:TesteDPlus.ViewModels.ClienteViewModel.loadingIsVisible"/>
+        </member>
+        <member name="F:TesteDPlus.ViewModels.ClienteViewModel.guardarCommand">
+            <summary>The backing field for <see cref="P:TesteDPlus.ViewModels.ClienteViewModel.GuardarCommand"/>.</summary>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.ClienteViewModel.GuardarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TesteDPlus.ViewModels.ClienteViewModel.Guardar"/>.</summary>
+        </member>
+        <member name="T:TesteDPlus.ViewModels.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.MainViewModel.ListaCliente">
+            <inheritdoc cref="F:TesteDPlus.ViewModels.MainViewModel.listaCliente"/>
+        </member>
+        <member name="F:TesteDPlus.ViewModels.MainViewModel.criarCommand">
+            <summary>The backing field for <see cref="P:TesteDPlus.ViewModels.MainViewModel.CriarCommand"/>.</summary>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.MainViewModel.CriarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:TesteDPlus.ViewModels.MainViewModel.Criar"/>.</summary>
+        </member>
+        <member name="F:TesteDPlus.ViewModels.MainViewModel.editarCommand">
+            <summary>The backing field for <see cref="P:TesteDPlus.ViewModels.MainViewModel.EditarCommand"/>.</summary>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.MainViewModel.EditarCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:TesteDPlus.ViewModels.MainViewModel.Editar(TesteDPlus.DTOs.ClienteDTO)"/>.</summary>
+        </member>
+        <member name="F:TesteDPlus.ViewModels.MainViewModel.excluirCommand">
+            <summary>The backing field for <see cref="P:TesteDPlus.ViewModels.MainViewModel.ExcluirCommand"/>.</summary>
+        </member>
+        <member name="P:TesteDPlus.ViewModels.MainViewModel.ExcluirCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:TesteDPlus.ViewModels.MainViewModel.Excluir(TesteDPlus.DTOs.ClienteDTO)"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IdCliente">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IdCliente" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Nome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Nome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SobreNome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SobreNome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Idade">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Idade" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Endereco">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Endereco" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ClienteDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ClienteDto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TituloPagina">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TituloPagina" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoadingIsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoadingIsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ListaCliente">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ListaCliente" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IdCliente">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IdCliente" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Nome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Nome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SobreNome">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SobreNome" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Idade">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Idade" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Endereco">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Endereco" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ClienteDto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ClienteDto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TituloPagina">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TituloPagina" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoadingIsVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoadingIsVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ListaCliente">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ListaCliente" generated properties.</summary>
+        </member>
+    </members>
+</doc>
